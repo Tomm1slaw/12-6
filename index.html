@@ -4,17 +4,22 @@
 <head>
     <meta charset="utf-8">
     <title>Country search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>Country search engine</h1>
-    <button id="search">Search a country</button>
-    <input id="country-name" type="text" />
-    <h2>List of countries</h2>
-    <ul id="countries">
-        <li>No data</li>
-    </ul>
+    <div class="container">
+        <h1>Country search engine</h1>
+        <div class="button">
+            <button id="search" class="btn btn-primary btn-lg">Search a country</button>
+        </div>
+        <input id="country-name" class="form-control form-control-lg" placeholder="Country name..." type="text" />
+        <h2>List of countries</h2>
+        <ul id="countries">
+            <li>Country</li>
+        </ul>
+    </div>
     <script src="js/script.js">
     </script>
 </body>

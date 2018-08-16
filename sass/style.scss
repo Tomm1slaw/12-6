@@ -1,0 +1,16 @@
+body {
+	background-image: url("https://images.pexels.com/photos/269633/pexels-photo-269633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+}
+.container {
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	& ul  {
+		list-style-type: none;
+	}
+}
+.button {
+	margin-bottom: 10px;
+}
+
